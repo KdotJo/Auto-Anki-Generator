@@ -1,0 +1,42 @@
+**ANKI FLASHCARD EXTRACTION PROMPT**
+
+Analyze the attached lecture PDF and extract the most crucial information for creating effective Anki study flashcards. Follow this structured approach:
+
+**PRIMARY OBJECTIVES:**
+- Identify and extract the top 15-25 most essential concepts, definitions, and key points
+- Prioritize information that is likely to appear on exams or assessments
+- Focus on foundational knowledge that builds understanding of the subject
+- Highlight connections between concepts when relevant
+
+**EXTRACTION CRITERIA:**
+- **Definitions:** Extract all technical terms, formulas, theorems, and their precise definitions
+- **Key Concepts:** Identify main ideas, principles, and frameworks presented
+- **Examples:** Include important examples that illustrate complex concepts
+- **Processes:** Break down step-by-step procedures or methodologies
+- **Relationships:** Note cause-and-effect relationships and dependencies between topics
+- **Exceptions/Edge Cases:** Highlight important exceptions, limitations, or special conditions
+
+**OUTPUT FORMAT:**
+Create bullet points using this hierarchy:
+• **MAJOR CONCEPT/CATEGORY**
+  - Core definition or principle (1-2 sentences max)
+  - Key details or components
+  - Important examples or applications
+  - Related formulas/equations (if applicable)
+  - Common misconceptions to avoid
+
+**QUALITY STANDARDS:**
+- Each bullet point should be self-contained and understandable
+- Use simple, clear language while maintaining technical accuracy
+- Limit each point to 15-20 words maximum
+- Ensure information is specific enough to create effective question-answer pairs
+- Include page numbers or section references for later review
+
+**SPECIAL FOCUS AREAS:**
+- Prioritize information emphasized by the instructor (repeated concepts, highlighted text)
+- Extract numerical values, dates, names, and specific data points
+- Identify comparative information (similarities, differences, advantages/disadvantages)
+- Note any mnemonics, acronyms, or memory aids mentioned
+
+**FINAL CHECK:**
+Ensure the extracted information covers the full scope of the lecture while focusing on the most testable and fundamental concepts.
