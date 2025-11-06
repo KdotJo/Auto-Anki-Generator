@@ -4,10 +4,10 @@ Auto-Anki-Generator is a Python-based tool that streamlines the process of creat
 
 Key Features:
 
-Automatic PDF parsing: Seamlessly import any study PDF and have key points extracted for flashcard creation.
+* Automatic PDF parsing: Seamlessly import any study PDF and have key points extracted for flashcard creation.
 
-Aesthetic formatting: Outputs flashcards in a clean, organized format to maximize memorization and review efficiency.
+* Aesthetic formatting: Outputs flashcards in a clean, organized format to maximize memorization and review efficiency.
 
-Custom prompt integration: Uses carefully designed prompts (with AI augmentation) to generate high-quality study notes.
+* Custom prompt integration: Uses carefully designed prompts (with AI augmentation) to generate high-quality study notes.
 
-Designed for students: Ideal for anyone needing fast, reliable flashcard generation from complex documents.
+* Designed for students: Ideal for anyone needing fast, reliable flashcard generation from complex documents.
