@@ -2,11 +2,20 @@ import pypdf, sys, textwrap, os, genanki, re
 from openai import OpenAI
 from pathlib import Path
 
+API_KEY_FILE = Path('openai_api_key.txt')
 
-client = OpenAI()
+if API_KEY_FILE.exists():
+    api_key = API_KEY_FILE.read_text(encoding='utf-8').strip()
+else:
+    print("Please create a file named 'openai_api_key.txt' containing your OpenAI API key." \
+    "\n(get one at https://platform.openai.com/account/api-keys):")
+    api_key = input("API Key: ").strip()
+    API_KEY_FILE.write_text(api_key, encoding='utf-8')
+if not api_key:
+    print("No API key provided, exiting.")
+    sys.exit(1)
 
-if not client.api_key:
-    sys.exit("ERROR: OPENAI_API_KEY not found in environment variables.")
+client = OpenAI(api_key=api_key)
 
 def extract_text(pdf_path):
     with open(pdf_path, 'rb') as file:
