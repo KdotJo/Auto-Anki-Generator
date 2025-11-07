@@ -50,4 +50,7 @@ This is required for new/unnotarized apps on recent Macs.
 ### Step Seven: Import Into Anki
 - Open the Anki app and import the `.apkg` flashcard deck.
 
-## Yay you've completed the steps to set it up now you can open the app whenever you want and import your pdfs to make banger flashcards! I hope you enjoy your improvements in grades! Carpe Diem!
+## Yay you've completed the steps to set it up now you can open the app whenever you want and import your pdfs to make banger flashcards! 
+
+I hope you enjoy your improvements in grades! Carpe Diem!
+-Kdot
