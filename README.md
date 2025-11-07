@@ -24,11 +24,11 @@ To allow the app:
 
 1. Open Terminal, run:
    
-    xattr -cr /path/to/AutoAnkiGenerator.app
+    `xattr -cr /path/to/AutoAnkiGenerator.app`
 
     Since you will be downloading the zip file and assuming you open the zip in your downloads folder your cmd will likely be 
 
-    xattr -cr ~/Downloads/AutoAnkiGenerator.app
+    `xattr -cr ~/Downloads/AutoAnkiGenerator.app`
 
 2. Now double-click the app—it will open normally!
 
