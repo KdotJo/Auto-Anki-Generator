@@ -11,3 +11,7 @@ Key Features:
 * Custom prompt integration: Uses carefully designed prompts (with AI augmentation) to generate high-quality study notes.
 
 * Designed for students: Ideal for anyone needing fast, reliable flashcard generation from complex documents.
+
+Instructions:
+* When you first run the app, you’ll be prompted to paste your OpenAI API key. It will be saved for future use, so you only have to do this once.
+    - (get one at https://platform.openai.com/account/api-keys)
