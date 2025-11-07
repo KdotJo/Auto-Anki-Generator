@@ -15,7 +15,7 @@ Key Features:
 ## 🚀 How to Use AutoAnkiGenerator (macOS)
 
 ### Step One: Download and Unzip
-1. Download the latest `.zip` from [GitHub Releases](#).
+1. Download the latest `.zip` from [GitHub Releases](https://github.com/KdotJo/Auto-Anki-Generator/releases/tag/v1.0.0).
 2. Unzip the file so that `AutoAnkiGenerator.app` appears in your **Downloads** folder.
 
 ### Step Two: Allow the App to Run (macOS Security Step)
